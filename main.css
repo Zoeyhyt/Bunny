@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background:#F7C3D1;
+}
+.box{
+    height: 420px;
+    width: 600px;
+    border: 1px solid red;
+    margin: 0 auto; 
+    position: relative;
+}
+.head{
+    width: 33.33%;
+    height: 40%;
+    position: absolute;
+    left: 33.33%;
+    top: 35%;
+    background:#F6E8E6;
+    border-radius: 50%;
+}
+.ear-left{
+    position: absolute;
+    width: 33.33%;
+    height: 80%;
+    left: 10%;
+    bottom: 80%;
+    background: #F6E8E6;
+    border-radius: 50% 50% 0 0;
+}
+.ear-right{
+    position: absolute;
+    width: 33.33%;
+    height: 80%;
+    right: 10%;
+    bottom: 80%;
+    background: #F6E8E6;
+    border-radius: 50% 50% 0 0;
+}
