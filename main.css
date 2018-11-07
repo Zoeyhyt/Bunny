@@ -5,7 +5,6 @@ body{
 .box{
     height: 420px;
     width: 600px;
-    border: 1px solid red;
     margin: 0 auto; 
     position: relative;
 }
@@ -35,4 +34,77 @@ body{
     bottom: 80%;
     background: #F6E8E6;
     border-radius: 50% 50% 0 0;
+}
+.inner-ear{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    bottom: 15%;
+    background: #FDDDE2;
+    border-radius: 50% 50% 10% 10%;
+}
+.eye-left{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    left: calc(25% - 10px);
+    background: #818181;
+    border-radius: 50%;
+    z-index: 1;
+}
+.eye-right{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    right: calc(25% - 10px);
+    background: #818181;
+    border-radius: 50%;
+    z-index: 1;
+}
+.pupil{
+    position: absolute;
+    width: 43%;
+    height: 43%;
+    left: 20%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.nose{
+    position: absolute;
+    width: 16px;
+    height: 10px;
+    border-radius: 50%;
+    left: calc(50% - 8px);
+    bottom: calc(33% - 5px);
+    background: #818181;
+}
+.line{
+    position: absolute;
+    height: 200%;
+    border-left: 4px solid #818181;
+    top: 20%;
+    left: calc(50% - 2px);
+    border-radius: 20%;
+}
+.blush-left{
+    position: absolute;
+    width: 15%;
+    height: 14%;
+    border-radius: 50%;
+    background: #FDDDE2;
+    top: 54%;
+    left: 15%;
+}
+.blush-right{
+    position: absolute;
+    width: 15%;
+    height: 14%;
+    border-radius: 50%;
+    background: #FDDDE2;
+    top: 54%;
+    right: 15%;
 }
